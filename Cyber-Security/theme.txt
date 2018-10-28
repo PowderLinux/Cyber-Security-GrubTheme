@@ -1,0 +1,84 @@
+# CyberSecurity Theme for GRUB2 Bootloader
+# Created by Powder (https://github.com/PowderLinux)
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#000000"
+terminal-font: "DejaVu Regular 14"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Navigation keys (Top)
++ label {
+  left = 0
+  top = 3%
+  width = 100%
+  align = "center"
+  # DE
+  # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
+  # EN
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  # FR
+  # text = "Choisissez le système avec les flèches du clavier (↑ et ↓), puis validez avec la touche Enter (↲)"
+  # NO
+  # text = "Bruk ↑ og ↓ for å endre menyvalg, velg med Enter"
+  # PT
+  # text = "Use as teclas ↑ e ↓ para mudar a seleção, e ENTER para confirmar"
+  # RU
+  # text = "Используйте клавиши ↑ и ↓ для изменения выбора, Enter для подтверждения"
+  # UA
+  # text = "Використовуйте ↑ та ↓ для вибору, Enter для підтвердження"
+  # zh_CN
+  # text = "使用 ↑ 和 ↓ 键移动选择条，Enter 键确认"
+  color = "#FFFFFF"
+  font = "DejaVu Regular 12"
+}
+
+# Countdown Message (Top)
++ label {
+  left = 0
+  top = 7%
+  width = 100%
+  align = "center"
+  id = "__timeout__"
+  # DE
+  # text = "Start in %d Sekunden."
+  # EN
+  text = "Booting in %d seconds"
+  # FR
+  # text = "Démarrage automatique dans %d secondes"
+  # NO
+  # text = "Starter om %d sekunder"
+  # PT
+  # text = "Arranque automático dentro de %d segundos"
+  # RU
+  # text = "Загрузка выбранного пункта через %d сек."
+  # UA
+  # text = "Автоматичне завантаження розпочнеться через %d сек."
+  # zh_CN
+  # text = "在 %d 内启动"
+  color = "#FFFFFF"
+  font = "DejaVu Regular 12"
+}
+
+# Boot Menu (Bottom)
++ boot_menu {
+  left = 50%-190
+  width = 375
+  top = 50%
+  height = 300
+  item_font = "DejaVu Regular 14"
+  item_color = "#000000"
+  selected_item_color = "#000000"
+  item_height = 40
+  item_spacing = 4
+  scrollbar = false
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
