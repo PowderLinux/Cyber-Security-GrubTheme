@@ -10,7 +10,7 @@ Supported languages: English, French, German, Norwegian, Portuguese, Russian, Uk
 
 
 NOTICE: This theme looks best on lower resolution screens.
-(Best results 1280x1024)(Created on a QEMU-KVM VM with a 1280x1024 display)
+(Best results 1280x1024) (Created on a QEMU-KVM VM with a 1280x1024 display)
 I am currently working on another version for higher resolution screens..
 
 ____________________________________________________________________________
