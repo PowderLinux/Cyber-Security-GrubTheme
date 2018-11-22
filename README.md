@@ -41,7 +41,7 @@ Created by p0wder (https://github.com/PowderLinux)
 Credits:
 
 Andrei Shevchuk (https://github.com/shvchk)
-I used his 'Poly-Light' grub theme as a template to make this theme.
+Multi-Language support from Shvchk's 'Poly-Light' grub theme.
 (MIT License)
 
 Llewelyn Trahaearn (https://www.opendesktop.org/member/461881)
